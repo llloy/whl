@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	>
+
+       <!-- 头顶部分 -->
+         <include 
+        android:id="@+id/title_summaryinfo"
+        layout="@layout/summary_header"
+        />
+         
+          <!-- 结尾部分 -->
+    <include 
+        layout="@layout/summary_end"
+        android:id="@+id/end_summaryinfo"
+        
+        />
+   
+
+    <!-- 网点信息部分 -->
+
+        <ListView 
+            android:layout_below="@id/title_summaryinfo"
+            android:layout_above="@id/end_summaryinfo"
+            android:id="@+id/list_summaryinfo"
+            android:layout_width="fill_parent" 
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:background="#FFFFFF"
+            />
+      
+        
+
+        
+
+   
+    
+    
+</RelativeLayout>

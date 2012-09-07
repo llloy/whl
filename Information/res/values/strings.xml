@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, InformationActivity!</string>
+    <string name="app_name">信索调研</string>
+    <string name="netpointinfo">网点信息:</string>
+    <string name="netpointid">网点编号:</string>
+    <string name="city">城市:</string>
+    <string name="address">网点地址:</string>
+    <string name="baseinfo">基础信息:</string>
+    <string name="bankname">分行名称:</string>
+    <string name="test1">测试数据1:</string>
+    <string name="test2">测试数据2:</string>
+    <string name="title">标题： </string>
+    <string name="request">要求： </string>
+    <string name="tm_value">分值： </string>
+    <string name="select_type1">答案类型：单选</string>
+    <string name="select_type2">答案类型：多选</string>
+    <string name="select_type3">答案类型：描述</string>
+    <string name="tev_pfgz">评分规则：</string>
+    <string name="zxbz">执行标准：</string>
+    <string name="jtsm">截图说明：</string>
+    <string name="bz">备注：</string>
+    <string name="title_type1">题目类型：标准</string>
+    <string name="title_type2">题目类型：附加</string>
+    <string name="title_type3">题目类型：附减</string>
+
+</resources>

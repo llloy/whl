@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kjhd.whl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/appimg"
+        android:label="@string/app_name" 
+        android:name=".androidinfo.mapapi.BMapApiDemoApp" 
+        android:debuggable="true"
+        >
+        <activity
+            android:name=".androidinfo.ui.StartActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            
+        </activity>
+        <activity android:name=".androidinfo.ui.AnswerActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".androidinfo.ui.Answerbackup" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".androidinfo.ui.ExamInfoActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".androidinfo.ui.LoginActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".androidinfo.ui.SummaryActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+         <activity android:name=".androidinfo.mapapi.MapViewDemo" android:screenOrientation="sensor" 
+        	android:configChanges="orientation|keyboardHidden"> </activity>
+         <activity android:name=".androidinfo.mapapi.MyLocation" > </activity>
+       
+        <!-- #####################JUnit测试需要的权限标签 #####################-->
+		<uses-library android:name="android.test.runner" />
+		
+    </application>
+    
+    <!-- 访问精确位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 读取电话状态的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 调用摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+     <!--往sdcard中写入数据的权限 -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	 <!--在sdcard中创建/删除文件的权限 -->
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <!-- 硬件震动 -->
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<!-- 使用网络 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 查询网络状态 -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<!-- 获取地理位置 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- #####################JUnit测试需要的权限标签 #####################-->
+	<instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="kjhd.whl"/>
+</manifest>

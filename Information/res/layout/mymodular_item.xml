@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dip"
+  	android:padding="5dip"
+    android:orientation="horizontal" 
+    
+    >
+
+   <!-- 模块信息1  -->
+   <TextView 
+  	    android:id="@+id/tev_mymodular_titlename"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="5dip"
+  	    android:padding="5dip"
+  	    android:textSize="15dp"
+        android:textColor="#ff4e4e4e"
+
+  />
+    
+   <!-- 模块信息2 -->
+   <TextView 
+  	    android:id="@+id/tev_mymodular_modulekey"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="5dip"
+  	    android:padding="5dip"
+        
+  	    android:textColor="#ff4e4e4e"
+      	android:textSize="15dp"
+
+
+  />
+
+</LinearLayout>
+
+     
+

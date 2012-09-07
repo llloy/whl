@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#ffeeeeee"
+	>
+
+       <!-- 头顶部分 -->
+         <include 
+        android:id="@+id/title_examinfo"
+        layout="@layout/exam_header"
+        />
+         
+          <!-- 结尾部分 -->
+    <include 
+        layout="@layout/examend"
+        android:id="@+id/end_examinfo"
+        
+        />
+   
+
+    <!-- 网点信息部分 -->
+
+        <ListView 
+            android:layout_below="@id/title_examinfo"
+            android:layout_above="@id/end_examinfo"
+            android:id="@+id/list_examinfo"
+            android:layout_width="fill_parent" 
+            android:padding="5dp"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:background="#ffeeeeee"
+	        android:fadingEdge="none"
+	        android:scrollbars="none"
+	        android:cacheColorHint="#00000000" 
+            android:divider="@drawable/line"
+            />
+      
+    <!-- 虽然定义了MapView,但是设置了android:visibility="gone"将其隐藏 因为本示例并不需要显示地图，但不定义又不行（baidu  
+            map api的要求） -->
+        <com.baidu.mapapi.MapView 
+            android:id="@+id/map_View"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:clickable="true" 
+            android:visibility="gone" 
+            /> 
+
+        
+
+   
+    
+    
+</RelativeLayout>

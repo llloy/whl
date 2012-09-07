@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:paddingTop="2dp"
+        android:id="@+id/infolayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+        
+        <TextView
+            android:background="#808080"
+            android:textSize="16.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="得分信息"
+            android:singleLine="true" 
+            />
+       <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dip"
+        
+         >
+        
+        <TextView 
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:singleLine="true" 
+            />
+        
+     <View 
+        android:background="@drawable/pdialog_img_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" 
+        />
+        <TextView
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+        />
+       <View 
+        android:background="@drawable/pdialog_img_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" 
+        /> 
+        
+        <TextView
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+        />
+    </LinearLayout>
+
+        <TextView
+            android:background="#808080"
+            android:textSize="16.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="录入人信息"
+            />
+        
+  <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView
+
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+
+            />
+      <View 
+        android:background="@drawable/pdialog_img_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" 
+        />
+        <TextView
+
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+
+            />
+      <View 
+        android:background="@drawable/pdialog_img_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" 
+        />
+        
+        <TextView
+ 
+
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+
+        />
+        <View 
+        android:background="@drawable/pdialog_img_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" 
+        />
+        <TextView
+
+            android:id="@+id/test3"
+            android:textSize="16.0sp" 
+            android:textColor="#ff4e4e4e" 
+            android:gravity="left|center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+
+        />
+     </LinearLayout>
+        
+    </LinearLayout>
